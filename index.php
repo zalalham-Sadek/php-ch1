@@ -5,7 +5,7 @@ echo "Current Server Time: " . date('Y-m-d H:i:s');
 ?>
 
 
-<form action="result.php" method="POST">
+<form action="handle-data.php" method="POST">
     <label>
         Name: 
         <input type="text" name="username" required>
